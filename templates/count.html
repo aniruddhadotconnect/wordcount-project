@@ -1,0 +1,14 @@
+<hi>it has {{count}} words</hi>
+
+
+<h1></h1>
+{{ fulltext }}
+
+<h1>word count:</h1>
+
+{% for word, counttotal in worddic %}
+{{ word}}
+
+{{ counttotal }}
+<br/>
+{% endfor %}
